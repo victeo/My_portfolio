@@ -1,0 +1,72 @@
+.select {
+  background-image: url(../../public/img/ipe_amarelo.jpg);
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.27);
+  background-blend-mode: color;
+  width: 100%;
+}
+.header{
+    padding-top: 10px;
+
+}
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  font-size: 2rem;
+  font-weight:700;
+  color: #fff;
+}
+
+/* Estilo do menu Hamburguer */
+.header__menu_input {
+  opacity: 0;
+  cursor: pointer;
+}
+.header__menu_input:checked + label span:nth-child(1) {
+  transform: rotate(-45deg);
+  top: 10px;
+}
+.header__menu_input:checked + label span:nth-child(2) {
+  opacity: 0;
+}
+.header__menu_input:checked + label span:nth-child(3) {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.header__menu_label {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  height: 22px;
+  width: 30px;
+}
+
+.header__menu_span {
+  position: relative;
+  display: block;
+  height: 5px;
+  width: 100%;
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255);
+  transition: 0.25s ease-in-out;
+}
+
+.header__menu_span:nth-child(1) {
+  top: 0;
+}
+.header__menu_span:nth-child(2) {
+  top: 5px;
+}
+.header__menu_span:nth-child(3) {
+  top: 10px;
+}
+/* Final do estilo do menu Hamburguer */
