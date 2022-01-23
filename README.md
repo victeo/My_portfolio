@@ -1,13 +1,13 @@
 # My Portfolio - Victor Teodoro
 
-**Name:** Victor Teodoro.
+**Name:** Victor Teodoro. <br>
 **Version:** 0.1.
 
 ***
 ## About:
 This project has intention to practice my knowledge in Frontend and React nextjs.
 
-* The first step is a project designer in Figma 
+* The first step is a project designer in Figma  <br>
 Link: <Link>
 
 * The Second step will be the implementation in React nextjs
