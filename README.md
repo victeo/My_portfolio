@@ -1,7 +1,7 @@
 # My Portfolio - Victor Teodoro
 
-**Name:** Victor Teodoro
-**Version:** 0.1
+**Name:** Victor Teodoro.
+**Version:** 0.1.
 
 ***
 ## About:
