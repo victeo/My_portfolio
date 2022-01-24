@@ -21,7 +21,7 @@
 }
 .header__logo {
   font-size: 2rem;
-  font-weight:700;
+  font-weight:600;
   color: #fff;
 }
 
@@ -70,3 +70,13 @@
   top: 10px;
 }
 /* Final do estilo do menu Hamburguer */
+
+
+/* Conteudo central */
+
+.conteudo .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}

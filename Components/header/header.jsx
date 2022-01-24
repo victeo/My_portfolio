@@ -1,3 +1,4 @@
+import Section1 from "../section1/section1";
 import styles from "./header.module.css";
 
 export default function Header() {
@@ -22,6 +23,11 @@ export default function Header() {
                 <span className={styles.header__menu_span}></span>
               </label>
             </div>
+          </div>
+        </div>
+        <div className={styles.conteudo}>
+          <div className={styles.container}>
+            <Section1></Section1>
           </div>
         </div>
       </section>

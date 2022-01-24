@@ -1,7 +1,9 @@
 @import '/path/to/reset-css/reset.css';
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 :root{
   --vt--font--source--sans: 'Source Sans Pro', sans-serif;
+  --vt--font--source--code: 'Source Code Pro', monospace;
 }
 /* html,
 body {
