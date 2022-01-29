@@ -1,0 +1,53 @@
+.work {
+  background-image: url("../../public/img/carcara.png"),
+    linear-gradient(
+      to right,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 0.781) 70%,
+      rgba(0, 0, 0, 0.699) 77%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+.work__work {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+
+}
+
+.work__box__col8 {
+  flex: 0 0 auto;
+  width: 60%;
+}
+.work__box__col4 {
+  flex: 0 0 auto;
+  width: 40%;
+}
+
+.work__title {
+  font-size: 2rem;
+  color: #e9cf21;
+}
+
+.work__frase {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  text-align: right;
+}
+.work__frase i {
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+  text-align: right;
+}
+
+.work__text{
+    color:white;
+    font-size: 2rem;
+    font-family: var(--vt--font--source--code);
+    text-align: justify;
+}
