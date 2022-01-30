@@ -14,7 +14,7 @@ export default function Work() {
             
             <p className={style.work__text}>
               I'm a designer that believes that simplicity that is better than
-              complexity. Wherewith creative and hard work is the better way to
+              complexity. The creative and hard work is the better way to
               came in our goal. I believe too that universe conspiracies with
               us, where the universe law is the action and reaction. So, is
               important we to be good with each other.
